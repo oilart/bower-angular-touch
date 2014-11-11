@@ -61,7 +61,7 @@ ngTouch.factory('$swipe', [function() {
     'touch': {
       start: 'touchstart',
       move: 'touchmove',
-      end: 'touchend',
+      end: 'touchend MSPointerOut',
       cancel: 'touchcancel'
     }
   };
